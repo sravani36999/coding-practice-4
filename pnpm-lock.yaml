@@ -3,12 +3,14 @@ lockfileVersion: 5.3
 specifiers:
   express: 4.17.1
   nodemon: 2.0.7
+  sqlit: ^2.0.0
   sqlite: 4.0.19
   sqlite3: 5.0.2
 
 dependencies:
   express: 4.17.1
   nodemon: 2.0.7
+  sqlit: 2.0.0
   sqlite: 4.0.19
   sqlite3: 5.0.2
 
@@ -1474,6 +1476,16 @@ packages:
 
   /signal-exit/3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
+    dev: false
+
+  /sqlex/0.4.2:
+    resolution: {integrity: sha512-5nJmbnh6/IMMml6bJbTf6LpcQrG/hHWRmSsbsdiFls6D/1u0XNLqE1oxUtlwK178hPFL6h+ab9K9Co+OFRf1hQ==}
+    dev: false
+
+  /sqlit/2.0.0:
+    resolution: {integrity: sha512-675g4NwJtSyvjwHe9Qng9cWEZgYrlbIqnN2ny8z6b93qGA2pRIs7zj9rlWUKni9bruxiporOmMHobDITqoGEOA==}
+    dependencies:
+      sqlex: 0.4.2
     dev: false
 
   /sqlite/4.0.19:
